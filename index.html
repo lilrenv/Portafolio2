@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+   <link rel="stylesheet" href="style.css">
+
+   <style>
+    /* Estilos para la tabla */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    /* Estilos para las filas alternas */
+    tr:nth-child(even) {
+        background-color: #f8f8f8;
+    }
+
+    /* Estilos para los campos específicos */
+    .nombre {
+        color: #0074D9;
+    }
+
+    .apellido {
+        color: #FF4136;
+    }
+
+    .edad {
+        color: #2ECC40;
+    }
+
+    .color-favorito {
+        color: #FF851B;
+    }
+
+    .hobbie {
+        color: #B10DC9;
+    }
+</style>
+
+<style>
+    /* Estilos para la barra de navegación */
+    .navbar {
+        background-color: #888; /* Color de fondo gris */
+        padding: 10px;
+    }
+
+    .navbar a {
+        color: #fff; /* Color del texto en la barra */
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    /* Estilos para los enlaces */
+    .navbar a:hover {
+        color: #ddd; /* Color del texto al pasar el ratón */
+    }
+</style>
+
+
+
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Inicio</a>
+        <a href="mi.html">Acerca de mi</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
+    </div>
+
+<h1>Renato Silva</h1> 
+
+<div class="slider">
+    <img id="img-1" src="Images/perfil.png" alt="Imagen 1"/>
+    <img id="img-2" src="Images/perfil2.png" alt="Imagen 2"/>
+    <img id="img-3" src="Images/perfil3.png" alt="Imagen 3"/>
+  </div>
+  <div class="navigation-button">
+    <span class="dot active" onclick="changeSlide(0)"></span>
+    <span class="dot" onclick="changeSlide(1)"></span>
+    <span class="dot" onclick="changeSlide(2)"></span>
+  </div>
+
+<br><br>
+
+<a href="https://github.com/lilrenv"><img src="Images/GitHub-logo.png" alt="Logo de github" width="165"></a>
+
+
+<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="Images/Correo logo.png" alt="Logo de Correo" width="90"></a>
+<p></p>
+
+
+<table border="5">
+    <tr>
+        <th class="nombre">Nombre</th>
+        <th class="apellido">Apellido</th>
+        <th class="edad">Edad</th>
+        <th class="color-favorito">Color Favorito</th>
+        <th class="hobbie">Hobbie</th>
+    </tr>
+    <tr>
+        <td>Renato</td>
+        <td>Silva</td>
+        <td>16</td>
+        <td>Verde</td>
+        <td>FIFA</td>
+    </tr>
+</table>
+
+
+<h2>Instagram</h2>
+
+<a href="https://www.instagram.com/77.7rt?igsh=MTQ2MjVvYzKIM3ImaA%3D&utm_source=qr"><img src="Images/instagram logo.png" alt="Logo instagram" width="90"></a>
+
+<p>Social media app made in Phyton- <a href="https://www.radioactiva.cl/tag/rene-puente/">Code</a> / <a href="https://www.pinterest.es/pin/928726754385598165/">Developed</a></p>
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<h2>Contact Me</h2>
+
+<p>Name:</p>
+<input id="name" type="text" name="name">
+
+<p>Email:</p>
+<input id="email" type="text" name="email">
+<br>
+<br>
+
+<p>Message:</p>
+<textarea id="message" cols="40" rows="3"></textarea>
+<br>
+<br>
+
+<form>
+    <input type="submit" value="Send Message">
+</form>
+
+<script src="java.js"></script>
+</body>
+</html>
